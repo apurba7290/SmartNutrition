@@ -1,0 +1,141 @@
+/* Container for the Sign In page */
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  button.submit-btn {
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #357ab7;
+  }
+  
+  button.submit-btn:active {
+    background-color: #1d578b;
+  }
+  
+  @media (max-width: 480px) {
+    .sign-in-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    form {
+      width: 100%;
+      max-width: none;
+    }
+    /* Add this to both SignUp.css and SignIn.css */
+.back-btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #aaa;
+}
+
+.back-btn:active {
+  background-color: #888;
+}
+
+  }
+  /* Add this to both SignUp.css and SignIn.css */
+.back-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-btn:hover {
+    background-color: #aaa;
+  }
+  
+  .back-btn:active {
+    background-color: #888;
+  }
+  
+  
